@@ -6,4 +6,7 @@ new project to learn githUb
 new line
 nnjjjjj
 anther change
+<<<<<<< HEAD
+>>>>>>> origin/master
+=======
 >>>>>>> origin/master
