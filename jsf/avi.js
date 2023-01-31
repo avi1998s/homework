@@ -7,3 +7,4 @@ function splitNUM (test){
 return result;
 }
 console.log(splitNUM(ages));
+// all 
