@@ -1,15 +1,6 @@
 // תרגיל 1
 console.log("תרגיל מספר 1");
 console.log(" ");
-const ages = ["Zvi32", "Avi33", "Eli16", "Bibi40",'[]}{&^0',"**&1",'%%$%2','-*/-+3'];
-function splitNUM (test){
-    let result = [];
-    for (i in test){
-        result[Number(test[i].match(/\d+/g))]= test[i].match(/[a-zA-Z]+|[\/\-+\(\)\*&^%\$\#\!]+/g) ;
-    }
-return result;
-}
-console.log(splitNUM(ages));
 let names= ["nadav", "maya", "yonatan", "avi", "yossi", "bat el"],
 names1 = names.toString().toUpperCase().split(",");
 for(i of names1){
@@ -28,7 +19,7 @@ for(i of names1){
 console.log("");
 
 for(i =1;i< names1.length+1;i++){
-    console.log(names1[i-1].toString().concat(" *".repeat(i)));
+    console.log(names1[i-1].concat(" *".repeat(i)));
 }
 console.log(" ");
 console.log("תרגיל מספר 2 ");
